@@ -1,0 +1,73 @@
+body{
+	font-family: 'Ibarra Real Nova', serif;
+	font-size: 20px;
+	background-color: #fff5c0;
+}
+h1{
+	padding-top: 10px;
+	text-align: center;
+}
+label, input {
+    display: block;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 20px;
+}
+form{
+	background-color: #ffe0d8;
+}
+
+/*CLASSES USED*/
+.form-style{
+	width: 500px;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.22);
+}
+.input-group{
+	margin: 10px 0px 10px 0px;
+}
+.input-group input{
+	height: 30px;
+	width: 93%;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 3px solid grey;
+}
+.input-group select{
+   width: 95%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+}	
+.myButton {
+	box-shadow: 0px 10px 14px -7px #0f0f0f;
+	background:linear-gradient(to bottom, #c5a880 5%, #532e1c 100%);
+	background-color:#c5a880;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #532e1c 5%, #c5a880 100%);
+	background-color:#532e1c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
